@@ -15,11 +15,9 @@ eureka:
 
 spring:
     datasource:
-        data: classpath:/sql/data.sql
         driver-class-name: org.postgresql.Driver
         password: 'admin'
         platform: pg
-        schema: classpath:/sql/schema.sql
         url: jdbc:postgresql://localhost:5432/oauth?verifyServerCertificate=false&useSSL=false&requireSSL=false
         username: postgres
     jpa:
